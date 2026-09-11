@@ -4,13 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Papia Sarkar | Portfolio</title>
 
 <style>
 
 body{
-font-family:Segoe UI, sans-serif;
+font-family: 'Segoe UI', sans-serif;
 margin:0;
 background:#f4f7fb;
 color:#333;
@@ -26,6 +25,11 @@ text-align:center;
 .hero h1{
 font-size:60px;
 margin-bottom:10px;
+}
+
+.hero h2{
+font-weight:normal;
+margin-bottom:15px;
 }
 
 .hero p{
@@ -48,6 +52,7 @@ box-shadow:0px 3px 12px rgba(0,0,0,0.1);
 
 h2{
 color:#173F7A;
+margin-bottom:20px;
 }
 
 .button{
@@ -56,14 +61,19 @@ background:#173F7A;
 color:white;
 padding:12px 20px;
 margin-right:10px;
-margin-top:10px;
+margin-top:15px;
 text-decoration:none;
 border-radius:6px;
+font-weight:bold;
+}
+
+.button:hover{
+background:#0F2E5E;
 }
 
 .projects{
 display:grid;
-grid-template-columns:1fr 1fr;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:20px;
 }
 
@@ -72,6 +82,19 @@ background:#eef3fa;
 padding:20px;
 border-left:5px solid #173F7A;
 border-radius:8px;
+}
+
+.project h3{
+margin-top:0;
+}
+
+.project a{
+text-decoration:none;
+color:#173F7A;
+}
+
+.project a:hover{
+text-decoration:underline;
 }
 
 .skill{
@@ -83,6 +106,10 @@ margin:5px;
 border-radius:6px;
 }
 
+ul{
+line-height:1.8;
+}
+
 .footer{
 text-align:center;
 padding:30px;
@@ -90,7 +117,6 @@ color:#666;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -99,9 +125,7 @@ color:#666;
 
 <h1>Papia Sarkar</h1>
 
-<p>
-Data Analyst | Marketing Analytics Analyst | Media Analyst
-</p>
+<h2>Data Analyst | Marketing Analytics Analyst | Media Analyst</h2>
 
 <p>
 Media Analytics & Digital Marketing Intern at Omnicom Media India
@@ -125,34 +149,77 @@ Currently working as a Media Analytics & Digital Marketing Intern at Omnicom Med
 
 <a class="button"
 href="https://github.com/papiakng91"
-tton"
+target="_blank">
+GitHub Portfolio
+</a>
+
+<a class="button"
 href="https://www.linkedin.com/in/papia-sarkar-b1628488/"
 target="_blank">
-LinkedIn
+LinkedIn Profile
 </a>
 
 </div>
 
 <div class="card">
 
-<h2>Featured Projects</hoject">
-<h3>Marketing Campaign ETL Validation Framework</h3>
-<p>Power BI ETL, data validation, campaign governance and data quality monitoring.</p>
+<h2>Featured Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<h3>
+<a href="https://github.com/papiakng91/marketing-campaign-etl-validation-framework"
+target="_blank">
+Marketing Campaign ETL Validation Framework
+</a>
+</h3>
+
+<p>
+Power BI ETL, campaign governance, validation framework and data quality monitoring.
+</p>
+
 </div>
 
 <div class="project">
-<h3>Global Marketing Campaign Dashboard</h3>
-<p>ROAS, CTR, CPC, Spend Analysis, Product Insights and Forecasting.</p>
+
+<h3>
+<a href="https://github.com/papiakng91">
+Global Marketing Campaign Analytics Dashboard
+</a>
+</h3>
+
+<p>
+ROAS, CTR, CPC, Spend Analysis, Product Insights and Forecasting.
+</p>
+
 </div>
 
 <div class="project">
-<h3>Budget Optimization Analysis</h3>
-<p>Marketing ROI evaluation and campaign budget allocation analysis.</p>
+
+<h3>
+<a href="https://github.com/papiakng91">
+Budget Optimization Analysis
+</a>
+</h3>
+
+<p>
+Marketing ROI evaluation and campaign budget allocation analysis.
+</p>
+
 </div>
 
 <div class="project">
-<h3>Campaign Outlier Analysis</h3>
-<p>Outlier detection and anomaly identification using Excel analytics.</p>
+
+<h3>
+<a href="https://github.com/papiakng91/campaign-outlier-analysis"
+target="_3>
+
+<p>
+Outlier detection and anomaly identification using Excel analytics.
+</p>
+
 </div>
 
 </div>
@@ -190,4 +257,32 @@ Omnicom Media India | July 2026 – Present
 <ul>
 <li>Media Planning & Audience Targeting</li>
 <li>Power BI Dashboard Development</li>
-<li>Power
+<li>Data Validation Framework Design</li>
+<li>Power Query ETL Development</li>
+<li>Campaign Reporting & Marketing Analytics</li>
+<li>DV360, Meta Ads Manager, Pinterest and Planit Reporting</li>
+<li>Campaign Taxonomy & Data Governance</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Contact</h2>
+
+<p><strong>Email:</strong> papia.kng91@gmail.com</p>
+
+<p><strong>Location:</strong> Bangalore, India</p>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+© 2026 Papia Sarkar | Data Analytics Portfolio
+
+</div>
+
+</body>
+</html>
