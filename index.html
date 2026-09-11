@@ -1,68 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Papia Sarkar Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Papia Sarkar | Data Analyst Portfolio</title>
 
 <style>
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
 font-family:Arial, sans-serif;
-margin:0;
 background:#f4f7fb;
 color:#333;
+line-height:1.6;
 }
 
 .hero{
 background:#163A70;
 color:white;
 text-align:center;
-padding:60px 20px;
+padding:70px 20px;
 }
 
 .hero h1{
-font-size:48px;
-margin-bottom:10px;
+font-size:58px;
+margin-bottom:15px;
+}
+
+.hero h2{
+font-size:28px;
+font-weight:normal;
+margin-bottom:15px;
 }
 
 .hero p{
-font-size:22px;
+font-size:20px;
 }
 
 .container{
-width:90%;
-max-width:1100px;
+max-width:1200px;
 margin:auto;
 padding:30px;
 }
 
 .card{
 background:white;
-padding:25px;
-margin-bottom:20px;
-border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
+padding:30px;
+margin-bottom:25px;
+border-radius:12px;
+box-shadow:0px 3px 12px rgba(0,0,0,0.1);
 }
 
 h2{
 color:#163A70;
+margin-bottom:15px;
 }
 
 .button{
 display:inline-block;
-padding:12px 20px;
+padding:12px 25px;
 background:#163A70;
 color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:6px;
 margin-right:10px;
+margin-top:15px;
+}
+
+.button:hover{
+background:#0f2956;
 }
 
 ul{
-line-height:1.8;
+padding-left:20px;
+}
+
+.project{
+margin-bottom:15px;
+padding:15px;
+background:#f8fafc;
+border-left:5px solid #163A70;
+border-radius:5px;
+}
+
+.project a{
+text-decoration:none;
+color:#163A70;
+font-weight:bold;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+}
+
+.skill{
+background:#163A70;
+color:white;
+padding:10px;
+text-align:center;
+border-radius:5px;
+}
+
+.footer{
+text-align:center;
+padding:30px;
+color:#666;
 }
 
 </style>
-
 </head>
 
 <body>
@@ -71,9 +123,7 @@ line-height:1.8;
 
 <h1>Papia Sarkar</h1>
 
-<p>
-Data Analyst | Marketing Analytics Analyst | Media Analyst
-</p>
+<h2>Data Analyst | Marketing Analytics Analyst | Media Analyst</h2>
 
 <p>
 Media Analytics & Digital Marketing Intern at Omnicom Media India
@@ -88,25 +138,56 @@ Media Analytics & Digital Marketing Intern at Omnicom Media India
 <h2>About Me</h2>
 
 <p>
-Data Analytics professional specializing in Power BI, SQL,
-Excel, Power Query, DAX, ETL Development, Data Validation,
+Data Analytics professional specializing in Power BI, SQL, Excel,
+Power Query, DAX, ETL Development, Data Validation,
 Marketing Analytics, Media Analytics and Business Intelligence.
+Currently working as a Media Analytics & Digital Marketing Intern
+at Omnicom Media India with hands-on experience in campaign reporting,
+data validation frameworks, audience targeting and dashboard development.
 </p>
-<a class="button" href="https://github.com/lio
+
+<br>
+
+https://github.com/papiakng91
+GitHub Portfolio
 </a>
 
-<a class="button" href="https://www.linkedin.com/inLinkedIn Profile
+<a class="button" href="https://www.linkedin.com/in/papia-sarkarile
 </a>
+
+</div>
+
 <div class="card">
 
 <h2>Featured Projects</h2>
 
-<ul>
-<li>Marketing Campaign ETL Validation Framework</li>
-<li>Global Marketing Campaign Analytics Dashboard</li>
-<li>Budget Optimization Analysis</li>
-<li>Campaign Outlier Analysis</li>
-</ul>
+<div class="project">
+<a href="https://github.com/papiakng91/marketing-campaign-etl-validation-framework" target="_blank">
+Marketing Campaign ETL Validation Framework
+</a>
+<p>Power BI ETL pipeline, campaign governance, validation framework and data quality dashboard.</p>
+</div>
+
+<div class="project">
+<a href="https://github.com/papiakng91arketing-campaign-dashboard
+Global Marketing Campaign Analytics Dashboard
+</a>
+<p>ROAS, CPC, CTR, Spend Analysis, Product Insights and Forecasting using Power BI.</p>
+</div>
+
+<div class="project">
+<a href="https://m/papiakng91/budget-optimization-analysis
+Budget Optimization Analysis
+</a>
+<p>Marketing budget allocation, ROI evaluation and campaign efficiency analysis.</p>
+</div>
+
+<div class="project">
+<a href="https://github.kng91/campaign-outlier-analysis
+Campaign Outlier Analysis
+</a>
+<p>Outlier detection, anomaly analysis and reporting validation.</p>
+</div>
 
 </div>
 
@@ -114,18 +195,22 @@ Marketing Analytics, Media Analytics and Business Intelligence.
 
 <h2>Technical Skills</h2>
 
-<ul>
-<li>Power BI</li>
-<li>SQL</li>
-<li>Excel</li>
-<li>Power Query</li>
-<li>DAX</li>
-<li>ETL</li>
-<li>Data Validation</li>
-<li>Marketing Analytics</li>
-<li>Media Analytics</li>
-<li>Dashboard Development</li>
-</ul>
+<div class="skills">
+
+<div class="skill">Power BI</div>
+<div class="skill">SQL</div>
+<div class="skill">Excel</div>
+<div class="skill">Power Query</div>
+<div class="skill">DAX</div>
+<div class="skill">ETL</div>
+<div class="skill">Data Validation</div>
+<div class="skill">Marketing Analytics</div>
+<div class="skill">Media Analytics</div>
+<div class="skill">Business Intelligence</div>
+<div class="skill">Dashboard Development</div>
+<div class="skill">Data Visualization</div>
+
+</div>
 
 </div>
 
@@ -133,12 +218,33 @@ Marketing Analytics, Media Analytics and Business Intelligence.
 
 <h2>Experience</h2>
 
+<h3>Media Analytics & Digital Marketing Intern</h3>
+
 <p>
-Media Analytics & Digital Marketing Intern at Omnicom Media India
-(July 2026 - Present)
+Omnicom Media India | July 2026 – Present
 </p>
 
+<br>
+
+<ul>
+<li>Media Planning and Audience Targeting</li>
+<li>Power BI Dashboard Development</li>
+<li>Data Validation Framework Design</li>
+<li>Power Query ETL Development</li>
+<li>Campaign Reporting and Marketing Analytics</li>
+<li>DV360, Meta Ads Manager, Pinterest and Planit Reporting</li>
+<li>Campaign Taxonomy and Data Governance</li>
+</ul>
+
 </div>
+
+</div>
+
+<div class="footer">
+
+<p>
+© 2026 Papia Sarkar | Data Analytics Portfolio
+</p>
 
 </div>
 
